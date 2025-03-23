@@ -1,0 +1,9 @@
+function showElementInfo(element) {
+    let info = {
+        "Hydrogen": "Symbol: H, Atomic Number: 1, Colorless, odorless gas.",
+        "Oxygen": "Symbol: O, Atomic Number: 8, Essential for respiration.",
+        "Carbon": "Symbol: C, Atomic Number: 6, Found in all organic life."
+    };
+    
+    document.getElementById("element-info").innerText = info[element] || "Information not available.";
+}
